@@ -1,0 +1,84 @@
+
+div {
+    margin-left: 13px;
+}
+
+#myname {
+    font-size: 200%; 
+    font-family: Tahoma;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+#myimg {
+    width: 70px;
+    height: 100px;
+    border: 3px solid black;
+}
+
+.imgsize {
+    width: 25px;
+}
+
+.rightmargin {
+    margin-right: 6px;
+}
+
+.tech {
+    font-family:Tahoma;
+    font-size:100%;   
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse:collapse;
+}
+
+th, td {
+    padding: 5px;
+    padding-left: none;
+}
+
+#socialpart {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.socialstyle {
+    font-family:Tahoma;
+    font-size:100%;
+    margin: 1px;
+}
+
+#socialsnakes {
+    width: 6%;
+    border: 2px solid black ;
+    margin: 1px;
+}
+
+.socialmediaapp {
+    margin: 1px;
+}
+
+#contactme {
+    font-family:Tahoma;
+    font-size:100%;
+    margin-bottom: 15px;
+}
+
+input[type="text"], textarea {
+    border: 3px solid black;
+}
+
+#lastdiv {
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+#submit {
+    border: 1.5px solid black;
+    padding: 6px;
+    font-size: 15px;
+    box-shadow: 4px 4px black;
+    margin-left: 13px;
+}

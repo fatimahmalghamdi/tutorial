@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolioContent</title>
+    <link rel="stylesheet" href="styleporfolio.css">
+</head>
+<body>
+    <form action="/process" method="post">
+
+        <div>
+            <p id="myname">Fatimah Alghamdi</p>
+            <img  id="myimg" src="userprofileimg.png" alt="This img represents the programmer photo">
+        </div>
+        <div class="part2">
+            <img class="imgsize" src="github.png">
+            <a class="rightmargin" href="https://github.com/fatimahmalghamdi/tutorial">my github</a>
+            <img class="imgsize" src="linkedin.jpg">
+            <a class="rightmargin" href="https://www.linkedin.com/in/fatimah-alghamdi-420872163/">my linkedin</a>
+            <img class="imgsize" src="email.png">
+            <a class="rightmargin" href="fatimah-ma@hotmail.com">my email</a>
+        </div>
+        <div>
+            <p class="tech"><strong>Technologies</strong></p>
+            <table>
+                <tr>
+                    <th>Front-End</th>
+                    <th>Python</th>
+                    <th>JavaScript</th>
+                    <th>Database</th>
+                    <th>Concept</th>
+                </tr>
+                <tr>
+                    <td>HTML5</td>
+                    <td>Django</td>
+                    <td>Express</td>
+                    <td>MySQL</td>
+                    <td>AJAX</td>
+                </tr>
+                <tr>
+                    <td>CSS3</td>
+                    <td>Flask</td>
+                    <td>Mongoose</td>
+                    <td>MongoDB</td>
+                    <td>OOP</td>
+                </tr>
+                <tr>
+                    <td>Bootstrap</td>
+                    <td>Unittest</td>
+                    <td>React</td>
+                    <td></td>
+                    <td>REST</td>
+                </tr>
+            </table>
+        </div>
+        <div id="socialpart">
+            <p class="socialstyle"><strong>Social Snakes</strong></p>
+            <p><img id="socialsnakes" src="socialsnakes.png"></p>
+            <p class="socialmediaapp">Social Media App made in Python - <a href="https://code.org/" >code</a> | <a href="https://code.org/" >deployed</a></p>
+        </div>
+        <div>
+            <p id="contactme"><strong>Contact Me</strong></p>
+            <label><strong>Name: </strong></label><input type="text" name="name">
+            <label><strong>Email: </strong></label><input type="text" name="email">
+            <p id="lastdiv">
+                <label><strong>Message: </strong> </label>
+                <textarea name="theMessage" cols="45" rows="3"></textarea>
+            </p>
+        </div>
+        <input id="submit" type="submit" value="Send Message">
+    </form>
+
+
+</body>
+</html>
