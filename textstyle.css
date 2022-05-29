@@ -1,0 +1,31 @@
+#fLine {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+#sLine {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:slateblue;
+    font-size: 40px;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+}
+
+#thLine {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:rgb(128, 198, 239);
+    font-size: 20px;
+    color: rgb(31, 24, 109);
+    text-align: right;
+    text-decoration: underline;
+    font-family: cursive;
+}
